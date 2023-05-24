@@ -1,0 +1,107 @@
+*{
+    font-family:'poppins',sans-serif;
+    margin:0%;
+    padding:0%;
+}
+nav{
+    display:flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+nav .navigation{
+    display:flex
+}
+nav .navigation img{
+    width:55%;
+    margin-inline: 11px;
+    margin-top:11px;
+}
+.navigation h4{
+margin-inline:21px;
+margin-top:5px;
+}
+nav h4{
+    margin-top: 5px;
+}
+nav img{
+    width: 18%;
+}
+.navbar{
+    display:flex;
+    text-align: center;
+    background-color: rgb(39, 37, 37);
+    padding: 17px;
+    color:white;
+ }
+ .navbar button{
+    margin-inline: 11px;
+    width: 160px;
+    height:37px;
+    background-color: rgb(224, 59, 59);
+    color: white;
+    border:none;
+    border-radius: 22px;
+    font-size: 16px;
+ }
+ .main img{
+   width: 100%; 
+ }
+ h2{
+    margin-left: 32px;
+    padding: 11px;
+    margin-top: 11px;
+ }
+ .card{
+    display:flex;
+    justify-content: center;
+    justify-content: space-around;
+text-align: center;
+margin-top: 22px;
+margin-bottom: 40px;
+ }
+ .card .crd img{
+width:80%;
+ }
+ .s-card{
+    border: top 50px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+ }
+ .s-card .s-crd img{
+   width: 80%; 
+ 
+ }
+ 
+ .s-crd .inner{
+    width: 280px;
+    height: 50px;
+    padding: 22px;
+    margin-left: 59px;
+    margin-top: -11px;
+ }
+ 
+ .s-card button{
+    width: 160px;
+    height:40px;
+    
+    color:black;
+
+    border-radius: 20px;
+    border-color: black;
+    font-size: 18px;
+ }
+ .footer{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: black;
+    padding:44px;
+    line-height: 30px;
+    margin-top:33px;
+    color:white;
+ }
+ nav h4:hover{
+margin-top: -1px;
+cursor: pointer;
+ }
